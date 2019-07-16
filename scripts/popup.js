@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 var canvas = iframe.contentWindow.document.getElementById('canvas-container');
 
-                canvas.style.left = '';
-                //canvas.style.position = ''; // makes some bug
-                canvas.style.minWidth = '100%';
+                canvas.style.borderLeft = 'solid 2px red';
+				canvas.style.borderRight = 'solid 2px red';
+                
 
             }
 
