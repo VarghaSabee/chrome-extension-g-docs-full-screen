@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#app {
+    width: 200px;
+    color:rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+}
+.app-name{
+    padding: 5px;
+}
+footer p {
+    font-size: 0.8em;
+}
+img{
+  margin-top: 5px;
+}
+  hr {
+    width: 200px;
+    margin: 5px auto 0 auto;
+    height: 1px;
+    background-color:#666;
+    opacity: .7;
+    }
+
+        /* Ripple effect */
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .ripple:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
+  .ripple:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+  }
+  
+  /* Button style */
+  button {
+    border: none;
+    border-radius: 2px;
+    padding: 8px 16px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: #2196f3;
+    box-shadow: 0 0 4px rgb(59, 59, 59);
+    outline: none;
+    margin: 15px 0 10px 0;
+    text-transform: uppercase;
+  }

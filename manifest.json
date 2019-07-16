@@ -1,0 +1,27 @@
+{
+  "author":"Vargha Sabolch",
+  "name": "Full Screen G Doc`s",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Set to full screen G Doc's Drawing Window",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "128": "icons/icon-128.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "tabs","<all_urls>","activeTab"
+  ],
+  "page_action": {
+    "default_icon": {
+      "19": "icons/icon-16.png",
+      "38": "icons/icon-32.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Full Screen G Doc`s G Doc's Drawing Window"
+  }
+}
+
+
